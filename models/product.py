@@ -10,6 +10,7 @@ class Product:
         self.__category_id=categoryid
         self.__manufacture_date=manufacturedate if manufacturedate else date.today()
         self.__is_active=is_active
+        gokmfogmfigjmgjm,m
 
         if productName is not None:
             self.set_product_name(productName)
