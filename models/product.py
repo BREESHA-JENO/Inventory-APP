@@ -4,14 +4,11 @@ import re
 class Product:
     'Python OOps applied'
     def __init__(self,productid=None,productName=None,unitprice=None,categoryid=None,manufacturedate=None,is_active="Y"):
-        self.__a=a
+        self.__b=b
         self.__productname=None  #validating productname
         self.__unitprice=unitprice
         self.__category_id=categoryid
         self.__manufacture_date=manufacturedate if manufacturedate else date.today()
-        self.__is_active=is_active
-        gokmfogmfigjmgjm,m
-
         if productName is not None:
             self.set_product_name(productName)
 
