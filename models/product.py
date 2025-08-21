@@ -4,7 +4,7 @@ import re
 class Product:
     'Python OOps applied'
     def __init__(self,productid=None,productName=None,unitprice=None,categoryid=None,manufacturedate=None,is_active="Y"):
-        self.a=b
+        self.__a=a
         self.__productname=None  #validating productname
         self.__unitprice=unitprice
         self.__category_id=categoryid
